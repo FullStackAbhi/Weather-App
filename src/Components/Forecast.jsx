@@ -27,6 +27,7 @@ const Forecast = ({ result }) => {
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+  console.log("hiiiiii");
   return (
     <div className="forecast_wrapper">
       <header className="forecast_header">

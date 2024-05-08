@@ -18,7 +18,7 @@ function App() {
           setweather({ ...response });
         });
     } catch (error) {
-      console.log(error );
+      console.log(error);
     }
   };
 

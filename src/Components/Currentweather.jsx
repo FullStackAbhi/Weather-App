@@ -12,7 +12,7 @@ const Currentweather = ({ data, icon }) => {
     color: "yellow",
     animate: true,
   };
-  // console.log(data);
+
   const date = new Date();
 
   return (

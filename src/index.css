@@ -189,6 +189,9 @@ body {
   width: 9rem;
   font-size: 15px;
   font-weight: bold;
+  &:hover {
+    box-shadow: 1px 1px 40px rgb(0, 0, 0);
+  }
 }
 .uv {
   margin-top: 4px;
